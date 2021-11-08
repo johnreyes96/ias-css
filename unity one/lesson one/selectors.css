@@ -1,0 +1,51 @@
+/* Selector Simbolo > (los elementos hijos) */
+#container-form > aside {
+    padding: 10px;
+}
+
+/* Selector Clase */
+.contenedor > p {
+    color: #0000ff;
+}
+
+/* Selector Simbolo + (elemento siguiente a la etiqueta anterior) */
+div + p {
+    color: #ff0000;
+}
+
+/* Selector Simbolo ~ (elementos siguientes a la etiqueta anterior) */
+div ~ p {
+    color: #ff0000;
+}
+
+/* Selector descendiente (elemento que está dentro de otro elemento) */
+div p {
+    color: #ff0000;
+}
+
+.form-control-lg {
+    border: 1px solid gray;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.mat-radio-buttom .mat-radio-button {
+    margin-left: 14px;
+}
+
+/* Selector Etiqueta */
+span {
+    color: gray;
+}
+
+/* Selector General */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Selector Id */
+#container-radio-buttom {
+    padding-top: 30px;
+    box-sizing: border-box;
+}
