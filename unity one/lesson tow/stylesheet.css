@@ -1,0 +1,41 @@
+* { /* 0 specificity */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box; /* Is traditional box model, include padding and border */
+}
+
+main {
+    box-sizing: content-box; /* W3C box model, not include padding and border, only content */
+}
+
+/* Special selectors, specially for css frameworks */
+/*:host :: .text {  /* In element now hosting
+    color: blue;
+}*/
+
+::ng-deep .text {  /* Disable css rules */
+    color: red;
+}
+
+.text { /* X0 specificity */
+    color: orange;
+}
+
+#main { /* X00 specificity */
+    color: orangered;
+}
+
+.text::after { /* X specificity */
+    color: orchid;
+}
+
+.text:hover { /* X0 specificity */
+    color: peru;
+}
+
+p { /* X0000 specificity */
+    color: saddlebrown !important;
+}
