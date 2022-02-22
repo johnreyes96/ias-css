@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es" style="font-size: 32px">
+<head>
+    <meta charset="UTF-8">
+    <title>Unidades relativas y/o medidas</title>
+</head>
+<body style="width: 100%"> <!-- Longitud referente al tamaño de los elementos padres -->
+    <nav style="font-size: 16px">
+        <ul style="font-size: 1em"> <!-- 16px -->
+            <li style="font-size: 2em"> <!-- 32px -->
+                <a href="#" style="font-size: 0.5em; padding: 2em;"></a> <!-- 16px - 32px -->
+            </li>
+        </ul>
+    </nav>
+    <nav style="font-size: 16px">
+        <ul style="font-size: 2rem"> <!-- 64px -->
+            <li style="font-size: 1rem"> <!-- 32px -->
+                <a href="#" style="font-size: 0.5rem"></a> <!-- 16px -->
+            </li>
+        </ul>
+    </nav>
+    <p style="font-size: 10vw"></p> <!-- Unidad relativa porcentual con respecto al Viewport width -->
+    <p style="font-size: 10vh"></p> <!-- Unidad relativa porcentual con respecto al Viewport heigh -->
+</body>
+</html>
