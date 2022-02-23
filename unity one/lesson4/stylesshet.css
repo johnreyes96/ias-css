@@ -1,0 +1,39 @@
+/* 0 0 auto */
+.flexbox {
+    flex: none;
+}
+
+/* Un valor, número sin unidades: flex-grow */
+.flexbox {
+    flex: 2;
+}
+
+/* Un valor, width/height: flex-basis */
+.flexbox {
+    flex: 10em;
+    flex: 30px;
+    flex: auto;
+    flex: content;
+}
+
+/* Dos valores: flex-grow | flex-basis */
+.flexbox {
+    flex: 1 30px;
+}
+
+/* Dos valores: flex-grow | flex-shrink */
+.flexbox {
+    flex: 2 2;
+}
+
+/* Tres valores: flex-grow | flex-shrink | flex-basis */
+.flexbox {
+    flex: 2 2 10%;
+}
+
+/* Valores globales */
+.flexbox {
+    flex: inherit;
+    flex: initial;
+    flex: unset;
+}
