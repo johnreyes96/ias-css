@@ -1,0 +1,55 @@
+.body {
+    display: flex;
+    height: 100vh;
+    flex-flow: column nowrap;
+    font-size: 16px;
+}
+
+.header {
+    height: 3rem;
+}
+
+.container {
+    display: flex;
+    outline: 1px solid gray;
+    height: 100%;
+}
+
+.footer {
+    outline: 1px solid gray;
+    height: 3rem;
+    margin-top: auto;
+}
+
+.menu {
+    width: 20%;
+    outline: 1px solid gray;
+}
+
+.menu-header {
+    display: flex;
+}
+
+.menu-items {
+    list-style: none;
+    flex: 1; /* Toma todo el width del contenedor padre y lo divide por la cantidad de elementos */
+    outline: 1px solid blue;
+    text-align: center;
+    line-height: 3rem;
+    transition: flex .5s;
+}
+
+.menu-items:hover {
+    flex: 8;
+}
+
+.main {
+    width: 80%;
+    outline: 1px solid gray;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
