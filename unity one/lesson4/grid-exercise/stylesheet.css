@@ -1,0 +1,41 @@
+.wrapper {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 80px 1fr 60px;
+    grid-template-areas:
+        "header header header"
+        "menu main main"
+        "footer footer footer";
+}
+
+.header {
+    background: teal;
+    grid-area: header;
+    padding: 20px 0;
+}
+
+.menu {
+    background: aqua;
+    grid-area: menu;
+    padding: 20px 0;
+}
+
+.main {
+    grid-area: main;
+    background: silver;
+    padding: 20px 0;
+}
+
+.footer {
+    grid-area: footer;
+    background: navy;
+    color: white;
+    padding: 20px 0;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
