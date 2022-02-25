@@ -1,0 +1,52 @@
+body {
+    background: #E0FFFF;
+}
+
+.zero {
+    top: 0;
+    background: #F08080;
+}
+
+.one {
+    z-index: -1;
+    position: absolute;
+    top: 93px;
+    left: 70px;
+    background: #87CEFA;
+}
+
+.two {
+    z-index: -2;
+    position: absolute;
+    top: 204px;
+    left: 125px;
+    background: #DDA0DD;
+}
+
+.three {
+    z-index: -3;
+    position: absolute;
+    top: 306px;
+    left: 184px;
+    background: #F0E68C;
+}
+
+.container {
+    position: relative;
+    width: 500px;
+    height: 900px;
+    outline: 1px solid black;
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    font-size: 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
