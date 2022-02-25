@@ -1,0 +1,39 @@
+.body {
+    height: 100vh;
+}
+
+.header {
+    background: #fdebd0;
+    width: 100vw;
+    height: 10vh;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+}
+
+.menu {
+    background: #f1948a;
+    width: 20%;
+    height: auto;
+}
+
+.main {
+    background: #aed6f1;
+    width: 80%;
+    height: auto;
+}
+
+.footer {
+    background: #e8daef;
+    width: 100vw;
+    height: 10vh;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
