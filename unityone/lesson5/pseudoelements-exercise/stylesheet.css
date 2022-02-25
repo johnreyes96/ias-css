@@ -1,0 +1,33 @@
+h1 {
+    margin: 20px;
+    font-size: 4rem;
+}
+
+h2 {
+    margin: 50px;
+    font-size: 4rem;
+}
+
+h1::before {
+    content: "€";
+}
+
+h1::after {
+    content: ".00";
+}
+
+h2::before {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 3px;
+    background: red;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 3px;
+    background: blue;
+}
