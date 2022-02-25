@@ -1,0 +1,49 @@
+body {
+    background: #E0FFFF;
+}
+
+.zero {
+    top: 0;
+    background: #F08080;
+}
+
+.one {
+    position: relative;
+    top: -30px;
+    right: -50px;
+    background: #87CEFA;
+}
+
+.two {
+    position: absolute;
+    top: 0;
+    right: -50px;
+    background: #DDA0DD;
+}
+
+.three {
+    position: fixed;
+    width: 100%;
+    top: 20px;
+    background: #F0E68C;
+}
+
+.container {
+    position: relative;
+    width: 500px;
+    height: 900px;
+    outline: 1px solid black;
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    font-size: 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
