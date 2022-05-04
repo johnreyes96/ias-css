@@ -1,0 +1,20 @@
+.container {
+    width: 200px;
+    height: 200px;
+    background: #f92672;
+    position: relative;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.9s, ease-in out;
+    position: absolute;
+    right: 0;
+    height: 200px;
+    width: 50px;
+    background: #428bca;
+}
+
+.container:hover .fade-in {
+    opacity: 1;
+}
