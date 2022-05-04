@@ -1,0 +1,57 @@
+:root {                                 /* custom properties */
+    --color-green: #2dcccc;
+    --typografy: cursive;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-family: var(--typografy);
+    font-style: normal;
+    height: 100vh;
+}
+
+.titulo_prin {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: darkslategrey;
+}
+
+.imagen_nav {
+    width: 74.19px;
+    height: 26.37px;
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    background-color: var(--color-green);
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 50px;
+    height: 60px;
+    -webkit-box-shadow: -2px 5px 17px -8px rgba(45, 189, 62, 1);
+    -moz-box-shadow: -2px 5px 17px -8px rgba(45, 189, 62, 1);
+    box-shadow: -2px 5px 17px -8px rgba(45, 189, 62, 1);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav ul li:hover {
+    color: white;
+}
+
+nav ul li a {
+    font-family: var(--typografy);
+    font-style: normal;
+
+}
