@@ -1,0 +1,15 @@
+@function numero($num: 500px) {
+    @return $num / 2;
+}
+
+.uno {
+    width: numero();
+    background-color: orange;
+    text-align: center;
+}
+
+.dos {
+    width: numero(600px);
+    background-color: aqua;
+    text-align: center;
+}
