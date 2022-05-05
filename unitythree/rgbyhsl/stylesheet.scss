@@ -1,0 +1,21 @@
+div {
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.rgb {
+    background-color: rgb(200, 100, 200);
+}
+
+.rgba {
+    background-color: rgba(200, 100 200, .2);
+}
+
+.hsl {
+    background-color: hsl(300, 40%, 60%);
+}
+
+.hsla {
+    background-color: rgba(300, 40%, 60%, .2);
+}
