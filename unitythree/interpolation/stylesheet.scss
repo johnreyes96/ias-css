@@ -1,0 +1,15 @@
+$break-point-mobile: 200px;
+
+@media (max-width: $break-point-mobile) {
+    @for $i from 1 to 12 {
+        @if $i > 4 {
+            .item:nth-of-type(#{$i}) {
+                display: none;
+            }
+        }
+
+        .item:nth-of-type(#{$i}) {
+            grid-column: 1 / 5;
+        }
+    }
+}
