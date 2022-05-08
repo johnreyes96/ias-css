@@ -1,2 +1,2 @@
-# css
-This repository is about the CSS course at IAS Software
+# IAS CSS
+This repository is about the CSS course at IAS Software.
